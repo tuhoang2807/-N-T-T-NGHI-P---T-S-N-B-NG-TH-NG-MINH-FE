@@ -1,0 +1,11 @@
+@keyframes ripple {
+  to { transform: scale(4); opacity: 0; }
+}
+
+@keyframes blink {
+  0%, 50% { opacity: 1; }
+  51%, 100% { opacity: 0; }
+}
+
+.typewriter-text { overflow: hidden; }
+.animate-blink { animation: blink 1s infinite; }
